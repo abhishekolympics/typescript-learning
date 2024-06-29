@@ -14,3 +14,10 @@ let first:string="abhishek wasn't here.", second:string="abhishek was here."
 let areEqual:boolean = (first === second);
 
 console.log(areEqual);
+
+
+//todo 3 string template
+
+let product:string="laptop", price:number = 700
+
+console.log(`The product ${product} is priced at ${price} dollars.`)

@@ -6,3 +6,6 @@ console.log("shortText=", shortText);
 var first = "abhishek wasn't here.", second = "abhishek was here.";
 var areEqual = (first === second);
 console.log(areEqual);
+//todo 3 string template
+var product = "laptop", price = 700;
+console.log("The product ".concat(product, " is priced at ").concat(price, " dollars."));
